@@ -11,13 +11,13 @@ D. Eschweiler, M. Rethwisch, S.Koppers, J. Stegmaier,
 The data needs to be in a hdf5 format containing image data for the network input and positional + shape information as output.
 The data is assumed to be in a structure similar to the following schematic.
 
-`|-data_root`<br>
-     `|-experiment1`<br>
-         `|-images_as_tif`<br>
-         `|-masks_as_tif`<br>
-     `|-experiment2`<br>
-         `|-images_as_tif`<br>
-         `|-masks_as_tif`<br>
+`-|data_root`<br>
+`----|experiment1`<br>
+`--------|images_as_tif`<br>
+`--------|masks_as_tif`<br>
+`----|experiment2`<br>
+`--------|images_as_tif`<br>
+`--------|masks_as_tif`<br>
 
 To prepare your own data, proceed as explained in the following steps:
 1. Convert the data using `utils.h5_converter.prepare_images` and `utils.h5_converter.prepare_harmonics` to prepare image and mask data, respectively.
