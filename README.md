@@ -3,7 +3,7 @@
 This repository contains code used for the Spherical Harmonics-based 3D cell segmentation proposed in [Paper](https://ieeexplore.ieee.org/document/9433983), [Preprint](https://arxiv.org/abs/2010.12369).
 
 If you use this code, please cite:<br>
-<b>D. Eschweiler, M. Rethwisch, S.Koppers, J. Stegmaier, 
+<b>D. Eschweiler, M. Rethwisch, S. Koppers, J. Stegmaier, 
 "Spherical Harmonics for Shape-Constrained 3D Cell Segmentation", ISBI, 2021.</b>
 
 
